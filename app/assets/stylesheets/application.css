@@ -13,3 +13,31 @@
  *= require_tree .
  *= require_self
  */
+
+
+ .navbar-lewagon {
+  justify-content: space-between;
+  background: #f0f1f3 ;
+}
+
+.navbar-lewagon .navbar-collapse {
+  flex-grow: 0;
+}
+
+.navbar-lewagon .navbar-brand img {
+  width: 40px;
+}
+
+.navbar-item a {
+  text-decoration: none;
+  color: #707275;
+}
+
+.container{
+  width: 1170px;
+}
+
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
